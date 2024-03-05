@@ -1,0 +1,142 @@
+body {
+    white-space: nowrap;
+}
+
+h1,
+h5,
+.oswald-font-style {
+    font-family: Oswald, sans-serif;
+}
+
+p,
+.open-sans-font-style {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 553;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+label {
+    font-weight: 700;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.contact-me-background {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url("../img/contact-bg-mumbai.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.text-style-1 {
+    letter-spacing: 1px;
+    margin: 6px 1px 0;
+}
+
+.text-style-2 {
+    margin: 11px 1px 0px 32px;
+}
+
+.text-style-3 {
+    margin: 7px 1px 0px 32px;
+}
+
+.text-style-4 {
+    margin: 11px 1px 0;
+}
+
+.layout-style-1 {
+    padding: 20px 30px 15px 0;
+}
+
+.layout-style-2 {
+    margin-bottom: 30px;
+}
+
+.color-style-1,
+.hyperlink:hover {
+    color: rgb(197, 197, 197, 1);
+}
+
+.color-style-2,
+.input-fields,
+.btn-color,
+.hyperlink {
+    color: rgb(255, 255, 255, 1);
+}
+
+.color-style-3,
+::placeholder {
+    color: rgb(152, 152, 152, 1);
+}
+
+.input-fields {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    background-color: rgba(0, 0, 0, 0);
+    caret-color: rgb(255, 255, 255, 1);
+    border-color: rgb(255, 255, 255, 1);
+    border-width: 2px;
+    border-top-width: 0;
+    border-top-style: none;
+    border-left-width: 0;
+    border-left-style: none;
+    border-right-width: 0;
+    border-right-style: none;
+}
+
+.input-fields:focus-visible {
+    outline: none;
+}
+
+.btn-color {
+    background-color: rgb(8, 15, 47, 1);
+}
+
+.btn-color:hover {
+    background-color: rgb(197, 197, 197, 1);
+    color: rgb(0, 0, 0, 1);
+}
+
+.btn-rounded {
+    border-radius: 100px;
+    width: 100%;
+}
+
+.btn-font {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hyperlink {
+    text-decoration: none;
+}
+
+.query-form {
+    padding-top: 60px;
+}
+
+@media (min-width:900px) {
+    .box1 {
+        padding: 50px;
+    }
+}
+
+@media (min-width:1240px) {
+    .box1 {
+        padding-left: 250px;
+        padding-right: 200px;
+        padding-top: 50px;
+    }
+}
