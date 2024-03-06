@@ -6,3 +6,4 @@ $(window).on("scroll", function() {
         document.getElementById("navbar_top").classList.remove("header-fixed");
     }
 });
+// replace if code with this later $(window).scrollTop() > document.getElementById("about")?.offsetTop-62
