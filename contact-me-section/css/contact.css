@@ -221,3 +221,8 @@ label {
   font-size: 17px;
   font-weight: 453;
 }
+
+.footer-copyright {
+  color: rgba(197, 197, 197, 1);
+  background-color: rgba(0, 0, 0, 0.53);
+}
