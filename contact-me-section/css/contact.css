@@ -221,10 +221,3 @@ label {
   font-size: 17px;
   font-weight: 453;
 }
-
-@media only screen and (max-width: 768px) {
-  .footer-left a {
-    font-size: 17px;
-    font-weight: 453;
-  }
-}
