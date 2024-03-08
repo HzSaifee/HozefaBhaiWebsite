@@ -39,6 +39,10 @@ label {
   text-decoration: none;
 }
 
+.word-wrap  {
+  white-space: normal;
+}
+
 /*---------------------
 	Navbar section
 -----------------------*/
@@ -199,7 +203,7 @@ label {
   }
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1500px) {
   .box1 {
     padding-left: 250px;
     padding-right: 200px;
