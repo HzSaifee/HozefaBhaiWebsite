@@ -360,7 +360,7 @@ label {
 	Footer
 -----------------------*/
 .footer-section {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, .72);
 }
 
 .footer-top a {
@@ -369,7 +369,7 @@ label {
   font-size: 17px;
   font-weight: 453;
   text-decoration: underline !important;
-  text-decoration-color: rgba(197, 197, 197, 0.662) !important;
+  text-decoration-color: rgba(197, 197, 197, 0.72) !important;
 }
 
 .footer-top a:hover {
