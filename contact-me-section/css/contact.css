@@ -22,7 +22,7 @@ h1 {
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.72rem;
   font-weight: 400;
   line-height: normal;
 }
@@ -37,6 +37,14 @@ label {
 
 .hyperlink {
   text-decoration: none;
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  display: inline;
 }
 
 /*---------------------
@@ -80,7 +88,7 @@ label {
 
 .header-fixed {
   box-shadow: 0 .21rex .53rex rgba(152, 152, 152, .72);
-  background-color: rgba(21, 21, 21, 0.85);
+  background-color: rgba(21, 21, 21, 0.92);
 }
 
 @media only screen and (max-width: 767px) {
@@ -90,6 +98,147 @@ label {
     padding: 10px 0px 10px 10px;
     border-bottom: 1px solid rgba(197, 197, 197, 1);
     background-color: rgba(21, 21, 21, 0.85);
+  }
+}
+
+/*---------------------
+	Cover Image section
+-----------------------*/
+.cover-image {
+  padding-top: 80px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.62)), url("../img/header-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-motto-p {
+  color: rgba(236, 239, 198, 0.75);
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+@media (min-width: 320px) {
+  .cover-image {
+    height: 200px;
+  }
+
+  .cover-motto-div {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  .cover-motto-p {
+    font-size: large;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .cover-image {
+    height: 270px;
+  }
+
+  .cover-motto-div {
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 50px;
+  }
+
+  .cover-motto-p {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cover-image {
+    height: 350px;
+  }
+
+  .cover-motto-div {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 520px;
+  }
+
+  .cover-motto-p {
+    font-size: xx-large;
+  }
+}
+
+/*---------------------
+	About Me section
+-----------------------*/
+.about-me-section {
+  border-top: 5px solid rgba(125, 126, 128, 1);
+  border-bottom: 5px solid rgba(125, 126, 128, 1);
+  /* background:rgba(115, 148, 160, 0.75); */
+  background: rgba(217, 246, 255, 1);
+  background: radial-gradient(circle, rgba(210, 253, 255, .72) 1%, rgba(251, 252, 253, 1) 100%);
+  padding-top: 72px;
+  padding-bottom: 21px;
+}
+
+.about-me {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.about-me-image {
+  pointer-events: none;
+  border: 1px solid rgba(78, 116, 137, 1);
+  filter: drop-shadow(0 0 0.5rem rgba(47, 49, 49, 1));
+}
+
+.about-me-content-div {
+  color: rgba(8, 15, 47, 1);
+}
+
+.list {
+  display: inline-block;
+  text-align: left;
+}
+
+@media (min-width: 320px) {
+  .about-me-image-div {
+    padding: 30px 0px;
+  }
+
+  .about-me-image {
+    height: 300px;
+  }
+
+  .about-me-content-div {
+    text-align: center;
+  }
+}
+
+@media (min-width: 767px) {
+  .about-me-image {
+    height: 400px;
+    width: 300px;
+  }
+
+  .about-me-heading {
+    /* font-size: xx-large; */
+    padding-top: 20px;
+  }
+
+  .about-me-content-div {
+    padding-left: 30px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-me-heading {
+    padding-top: 20px;
+  }
+
+  .about-me-content-div {
+    text-align: left;
   }
 }
 
@@ -211,13 +360,19 @@ label {
 	Footer
 -----------------------*/
 .footer-section {
-  background-color: rgba(0, 0, 0, 0.53);
+  background-color: rgba(0, 0, 0, .72);
 }
 
-.footer-left a {
-  color: rgba(255, 255, 255, 1);
+.footer-top a {
+  color: rgba(221, 221, 221, .97);
+  font-family: "Quicksand", sans-serif;
   font-size: 17px;
   font-weight: 453;
   text-decoration: underline !important;
   text-decoration-color: rgba(197, 197, 197, 0.72) !important;
+}
+
+.footer-top a:hover {
+  color: rgba(171, 194, 238, 1);
+  text-decoration-color: rgba(171, 194, 238, 1) !important;
 }
