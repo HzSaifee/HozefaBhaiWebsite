@@ -199,7 +199,7 @@ label {
 	Cover Image section
 -----------------------*/
 .cover-image {
-  padding-top: 80px;
+  padding-top: 110px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.62)), url("../img/header-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
