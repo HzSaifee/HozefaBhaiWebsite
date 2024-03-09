@@ -340,7 +340,7 @@ label {
 	Contact Me section
 -----------------------*/
 .contact-me-background {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url("../img/contact-bg-mumbai.jpg");
+  background-image: linear-gradient(0deg, rgba(1, 2, 4, 0.72), rgba(1, 2, 4, 0.72)), url("../img/contact-bg-mumbai.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -469,4 +469,9 @@ label {
 .footer-top a:hover {
   color: rgba(171, 194, 238, 1);
   text-decoration-color: rgba(171, 194, 238, 1) !important;
+}
+
+.footer-copyright{
+  font-size: 15px;
+  font-weight: 210;
 }
