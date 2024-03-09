@@ -50,7 +50,6 @@ label {
 .no-select::before{
   content: attr(bullet);
   margin-right: 6px;
-  margin-left: 6px;
 }
 
 /* Preloder */
@@ -148,6 +147,12 @@ label {
 .navbar-nav li a {
   font-size: 17px;
   font-weight: 453;
+}
+
+.navbar-nav li a.active{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(255, 255, 255, 1);
 }
 
 .navbar-toggler {
