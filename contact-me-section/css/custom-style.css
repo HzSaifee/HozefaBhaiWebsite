@@ -39,6 +39,11 @@ label {
   text-decoration: none;
 }
 
+.hyperlink:hover {
+  color: rgba(197, 197, 197, 1);
+  text-decoration: underline;
+}
+
 .no-select,
 .cover-motto-p {
   user-select: none;
@@ -459,10 +464,8 @@ label {
   margin-bottom: 30px;
 }
 
-.color-style-1,
-.hyperlink:hover {
+.color-style-1 {
   color: rgba(197, 197, 197, 1);
-  text-decoration: underline;
 }
 
 .color-style-2,
