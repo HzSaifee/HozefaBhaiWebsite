@@ -18,3 +18,12 @@ navLinks.forEach((l) => {
         else;
     })
 })
+
+$(window).on('load', function() {
+	/*------------------
+		Preloder
+	--------------------*/
+	$(".loader").fadeOut(); 
+	$("#preloder").delay(153).fadeOut("slow");
+
+});
