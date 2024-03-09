@@ -39,7 +39,8 @@ label {
   text-decoration: none;
 }
 
-.no-select, .cover-motto-p {
+.no-select,
+.cover-motto-p {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -47,7 +48,7 @@ label {
   display: inline;
 }
 
-.no-select::before{
+.no-select::before {
   content: attr(bullet);
   margin-right: 6px;
 }
@@ -149,7 +150,7 @@ label {
   font-weight: 453;
 }
 
-.navbar-nav li a.active{
+.navbar-nav li a.active {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: rgba(255, 255, 255, 1);
@@ -174,13 +175,25 @@ label {
   background-color: rgba(21, 21, 21, 0.92);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .navbar-nav li {
     width: 100%;
     float: left;
     padding: 10px 0px 10px 10px;
     border-bottom: 1px solid rgba(197, 197, 197, 1);
     background-color: rgba(21, 21, 21, 0.85);
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .navbar-brand-img {
+    width: 253px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .navbar-brand-img {
+    width: 210px;
   }
 }
 
