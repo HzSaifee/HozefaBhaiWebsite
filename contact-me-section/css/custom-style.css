@@ -46,6 +46,7 @@ label {
   -moz-user-select: none;
   -ms-user-select: none;
   display: inline;
+  color: rgb(52, 52, 52);
 }
 
 .no-select::before {
@@ -147,7 +148,8 @@ label {
   color: rgba(21, 21, 21, 1);
 }
 
-.navbar-nav li a.active:hover, .navbar-nav li a:hover {
+.navbar-nav li a.active:hover,
+.navbar-nav li a:hover {
   color: rgba(82, 82, 82, 1);
   text-decoration-color: rgba(82, 82, 82, 1);
 }
@@ -170,7 +172,7 @@ label {
 
 .header-fixed {
   box-shadow: 0 .21rex .53rex rgba(110, 110, 110, 0.72);
-  background-color: rgba(245, 251, 252,.92);
+  background-color: rgba(245, 251, 252, .92);
 }
 
 @media only screen and (max-width: 991px) {
@@ -207,7 +209,7 @@ label {
 }
 
 .cover-motto-p {
-  color: rgba(236, 239, 198, 0.75);
+  color: rgba(236, 239, 198, 0.75) !important;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -267,7 +269,6 @@ label {
 .about-me-section {
   border-top: 5px solid rgba(125, 126, 128, 1);
   border-bottom: 5px solid rgba(125, 126, 128, 1);
-  /* background:rgba(115, 148, 160, 0.75); */
   background: rgba(217, 246, 255, 1);
   background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
   padding-top: 72px;
@@ -298,6 +299,8 @@ label {
 @media (min-width: 320px) {
   .about-me-image-div {
     padding: 30px 0px;
+    padding-left: 5px;
+    padding-right: 15px;
   }
 
   .about-me-image {
@@ -305,18 +308,25 @@ label {
   }
 
   .about-me-content-div {
-    text-align: center;
+    padding-left: 40px;
+    padding-right: 21px;
+    text-align: left;
+  }
+
+  .about-me-para,
+  .about-me-subheading,
+  .about-me-list {
+    text-align: left;
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .about-me-image {
     height: 400px;
     width: 300px;
   }
 
   .about-me-heading {
-    /* font-size: xx-large; */
     padding-top: 20px;
   }
 
@@ -324,91 +334,95 @@ label {
     padding-left: 30px;
     text-align: left;
   }
+
+  .about-me-para,
+  .about-me-subheading,
+  .about-me-list {
+    text-align: left;
+  }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
+  .about-me-content-div {
+    padding-left: 69px;
+  }
+}
+
+@media (min-width: 1440px) {
   .about-me-heading {
     padding-top: 20px;
   }
 
   .about-me-content-div {
+    padding-left: 172px;
     text-align: left;
   }
 }
+
 /*---------------------
 	Avaibility section
 -----------------------*/
-.avability-section{
+.availability-section {
   background: rgba(217, 246, 255, 1);
-  background: radial-gradient(circle, rgba(210, 253, 255,.5) 1%, rgba(251, 252, 253, 1) 100%);
+  background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
   border-top: 5px solid rgba(125, 126, 128, 1);
   border-bottom: 5px solid rgba(125, 126, 128, 1);
+  padding-top: 72px;
+  padding-bottom: 21px;
 }
 
-.avability-heading{
-padding-top: 30px;
-color: rgba(8, 15, 47, 1);
+.availability-heading {
+  padding-top: 20px;
 }
 
-.avability-div{
-padding: 20px 0px 70px;
-color: rgb(2, 20, 104);
-}
-.list-consult{
-  padding-top: 10px;
-}
 .list-a {
- color: rgb(12, 28, 98);
- text-decoration: none;
- font-size: 1rem;
- font-weight: 420;
- 
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 420;
 }
-.time{
-  font-weight: 330;
-}
+
 .list-a:hover {
-  color: rgb(113, 151, 239);
+  color: rgb(72, 97, 153);
   text-decoration: underline;
- }
- @media (max-width: 768px) {
-  .avability-subheading_r {
-    padding-top: 15px;
-    font-size: 1.62rem;
-  }
-  .avability-div{
-    text-align: center;
-  }
-  .list-consult{
-    padding-top: 0px;
+}
+
+@media (min-width: 320px) {
+  .availability-outer-row-div {
+    padding-left: 40px;
   }
 }
+
 @media (min-width: 768px) {
-   
-  .avability-right-div{
-    text-align: center;
-    padding-top: 20px;
-  }
-  .avability-subheading_r {
-    font-size: 1.62rem;
-  }
-  .left-and-mid, .avability-right-div{
-    border: 1px dashed rgb(212, 216, 227);
+  .availability-outer-row-div {
+    padding-left: 30px;
   }
 }
+
 @media (min-width: 992px) {
-  /* .list-consult{
-    border-right: 3.5px double rgb(212, 216, 227);;
-   } */
-   .avability-subheading_r{
+  .availability-div {
+    padding: 5px 0 53px;
+  }
+
+  .availability-subheading_r,
+  .availability-right-div {
     padding-top: 0;
-    text-align: center;
-    }
-   .avability-right-div{
-    text-align: center;
-    padding-top: 0;
-    }
-   }
+  }
+
+  .availability-outer-row-div {
+    padding-left: 69px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .availability-outer-row-div {
+    padding-left: 172px;
+  }
+
+  .availability-right-div {
+    padding-left: 0px;
+  }
+}
 
 
 /*---------------------
@@ -448,6 +462,7 @@ color: rgb(2, 20, 104);
 .color-style-1,
 .hyperlink:hover {
   color: rgba(197, 197, 197, 1);
+  text-decoration: underline;
 }
 
 .color-style-2,
@@ -507,7 +522,7 @@ color: rgb(2, 20, 104);
 
 @media (max-width: 900px) {
   .box1 {
-    padding-top: 21px;
+    padding-top: 30px;
   }
 }
 
@@ -517,10 +532,10 @@ color: rgb(2, 20, 104);
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1440px) {
   .box1 {
-    padding-left: 250px;
-    padding-right: 200px;
+    padding-left: 172px;
+    padding-right: 152px;
     padding-top: 50px;
   }
 }
@@ -546,7 +561,7 @@ color: rgb(2, 20, 104);
   text-decoration-color: rgba(171, 194, 238, 1) !important;
 }
 
-.footer-copyright{
+.footer-copyright {
   font-size: 15px;
   font-weight: 210;
 }
