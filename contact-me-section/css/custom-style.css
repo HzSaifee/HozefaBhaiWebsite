@@ -39,12 +39,18 @@ label {
   text-decoration: none;
 }
 
-.no-select {
+.no-select, .cover-motto-p {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   display: inline;
+}
+
+.no-select::before{
+  content: attr(bullet);
+  margin-right: 6px;
+  margin-left: 6px;
 }
 
 /* Preloder */
