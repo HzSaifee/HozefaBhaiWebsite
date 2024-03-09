@@ -1,11 +1,11 @@
-$(window).on("scroll", function () {
-    if ($(window).scrollTop() > document.getElementById("text_slogan")?.offsetTop - 11) {
-        document.getElementById("navbar_top").classList.add("header-fixed");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-        document.getElementById("navbar_top").classList.remove("header-fixed");
-    }
-});
+// $(window).on("scroll", function () {
+//     if ($(window).scrollTop() > document.getElementById("text_slogan")?.offsetTop - 11) {
+//         document.getElementById("navbar_top").classList.add("header-fixed");
+//     } else {
+//         //remove the background property so it comes transparent again (defined in your css)
+//         document.getElementById("navbar_top").classList.remove("header-fixed");
+//     }
+// });
 
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbar-collapse-toggle')

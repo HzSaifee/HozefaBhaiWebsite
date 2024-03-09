@@ -124,10 +124,6 @@ label {
 /*---------------------
 	Navbar section
 -----------------------*/
-.navbar {
-  background-color: rgba(197, 197, 197, 0);
-}
-
 .navbar-section {
   z-index: 110;
 }
@@ -148,12 +144,18 @@ label {
 .navbar-nav li a {
   font-size: 17px;
   font-weight: 453;
+  color: rgba(21, 21, 21, 1);
+}
+
+.navbar-nav li a.active:hover, .navbar-nav li a:hover {
+  color: rgba(82, 82, 82, 1);
+  text-decoration-color: rgba(82, 82, 82, 1);
 }
 
 .navbar-nav li a.active {
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: rgba(255, 255, 255, 1);
+  text-decoration-color: rgba(21, 21, 21, 1);
 }
 
 .navbar-toggler {
@@ -166,13 +168,9 @@ label {
   box-shadow: none;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
 .header-fixed {
-  box-shadow: 0 .21rex .53rex rgba(152, 152, 152, .72);
-  background-color: rgba(21, 21, 21, 0.92);
+  box-shadow: 0 .21rex .53rex rgba(110, 110, 110, 0.72);
+  background-color: rgba(245, 251, 252,.92);
 }
 
 @media only screen and (max-width: 991px) {
@@ -181,7 +179,7 @@ label {
     float: left;
     padding: 10px 0px 10px 10px;
     border-bottom: 1px solid rgba(197, 197, 197, 1);
-    background-color: rgba(21, 21, 21, 0.85);
+    background-color: rgba(245, 245, 245, 0.252);
   }
 }
 
