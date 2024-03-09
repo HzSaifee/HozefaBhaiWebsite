@@ -326,11 +326,6 @@ label {
 }
 
 @media (min-width: 768px) {
-  .about-me-image {
-    height: 400px;
-    width: 300px;
-  }
-
   .about-me-heading {
     padding-top: 20px;
   }
@@ -348,6 +343,11 @@ label {
 }
 
 @media (min-width: 992px) {
+  .about-me-image {
+    height: 400px;
+    width: 300px;
+  }
+
   .about-me-content-div {
     padding-left: 69px;
   }
