@@ -269,7 +269,7 @@ label {
   border-bottom: 5px solid rgba(125, 126, 128, 1);
   /* background:rgba(115, 148, 160, 0.75); */
   background: rgba(217, 246, 255, 1);
-  background: radial-gradient(circle, rgba(210, 253, 255, .72) 1%, rgba(251, 252, 253, 1) 100%);
+  background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
   padding-top: 72px;
   padding-bottom: 21px;
 }
@@ -282,8 +282,8 @@ label {
 
 .about-me-image {
   pointer-events: none;
-  border: 1px solid rgba(78, 116, 137, 1);
-  filter: drop-shadow(0 0 0.5rem rgba(47, 49, 49, 1));
+  border: 1px solid rgb(173, 187, 194);
+  filter: drop-shadow(0 0 0.25rem rgb(112, 118, 118));
 }
 
 .about-me-content-div {
@@ -335,6 +335,81 @@ label {
     text-align: left;
   }
 }
+/*---------------------
+	Avaibility section
+-----------------------*/
+.avability-section{
+  background: rgba(217, 246, 255, 1);
+  background: radial-gradient(circle, rgba(210, 253, 255,.5) 1%, rgba(251, 252, 253, 1) 100%);
+  border-top: 5px solid rgba(125, 126, 128, 1);
+  border-bottom: 5px solid rgba(125, 126, 128, 1);
+}
+
+.avability-heading{
+padding-top: 30px;
+color: rgba(8, 15, 47, 1);
+}
+
+.avability-div{
+padding: 20px 0px 70px;
+color: rgb(2, 20, 104);
+}
+.list-consult{
+  padding-top: 10px;
+}
+.list-a {
+ color: rgb(12, 28, 98);
+ text-decoration: none;
+ font-size: 1rem;
+ font-weight: 420;
+ 
+}
+.time{
+  font-weight: 330;
+}
+.list-a:hover {
+  color: rgb(113, 151, 239);
+  text-decoration: underline;
+ }
+ @media (max-width: 768px) {
+  .avability-subheading_r {
+    padding-top: 15px;
+    font-size: 1.62rem;
+  }
+  .avability-div{
+    text-align: center;
+  }
+  .list-consult{
+    padding-top: 0px;
+  }
+}
+@media (min-width: 768px) {
+   
+  .avability-right-div{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .avability-subheading_r {
+    font-size: 1.62rem;
+  }
+  .left-and-mid, .avability-right-div{
+    border: 1px dashed rgb(212, 216, 227);
+  }
+}
+@media (min-width: 992px) {
+  /* .list-consult{
+    border-right: 3.5px double rgb(212, 216, 227);;
+   } */
+   .avability-subheading_r{
+    padding-top: 0;
+    text-align: center;
+    }
+   .avability-right-div{
+    text-align: center;
+    padding-top: 0;
+    }
+   }
+
 
 /*---------------------
 	Contact Me section
