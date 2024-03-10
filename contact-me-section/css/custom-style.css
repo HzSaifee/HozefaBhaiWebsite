@@ -13,7 +13,7 @@ h5,
 
 p,
 .open-sans-font-style {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -176,8 +176,8 @@ label {
 }
 
 .header-fixed {
-  box-shadow: 0 .21rex .53rex rgba(110, 110, 110, 0.72);
-  background-color: rgba(245, 251, 252, .92);
+  box-shadow: 0 0.21rex 0.53rex rgba(110, 110, 110, 0.72);
+  background-color: rgba(245, 251, 252, 0.92);
 }
 
 @media only screen and (max-width: 991px) {
@@ -207,7 +207,12 @@ label {
 -----------------------*/
 .cover-image {
   padding-top: 110px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.62)), url("../img/header-image.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.62)
+    ),
+    url("../img/header-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -275,7 +280,11 @@ label {
   border-top: 5px solid rgba(125, 126, 128, 1);
   border-bottom: 5px solid rgba(125, 126, 128, 1);
   background: rgba(217, 246, 255, 1);
-  background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(210, 253, 255, 0.5) 1%,
+    rgba(251, 252, 253, 1) 100%
+  );
   padding-top: 72px;
   padding-bottom: 21px;
 }
@@ -374,7 +383,11 @@ label {
 -----------------------*/
 .availability-section {
   background: rgba(217, 246, 255, 1);
-  background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(210, 253, 255, 0.5) 1%,
+    rgba(251, 252, 253, 1) 100%
+  );
   border-top: 5px solid rgba(125, 126, 128, 1);
   border-bottom: 5px solid rgba(125, 126, 128, 1);
   padding-top: 72px;
@@ -442,12 +455,16 @@ label {
   }
 }
 
-
 /*---------------------
 	Contact Me section
 -----------------------*/
 .contact-me-background {
-  background-image: linear-gradient(0deg, rgba(1, 2, 4, 0.72), rgba(1, 2, 4, 0.72)), url("../img/contact-bg-mumbai.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(1, 2, 4, 0.72),
+      rgba(1, 2, 4, 0.72)
+    ),
+    url("../img/contact-bg-mumbai.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -560,11 +577,11 @@ label {
 	Footer
 -----------------------*/
 .footer-section {
-  background-color: rgba(0, 0, 0, .72);
+  background-color: rgba(0, 0, 0, 0.72);
 }
 
 .footer-top a {
-  color: rgba(221, 221, 221, .97);
+  color: rgba(221, 221, 221, 0.97);
   font-family: "Quicksand", sans-serif;
   font-size: 17px;
   font-weight: 453;
