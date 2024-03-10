@@ -401,6 +401,10 @@ label {
   text-decoration: underline;
 }
 
+.thicker-plus {
+  font-weight: 553;
+}
+
 @media (min-width: 320px) {
   .availability-outer-row-div {
     padding-left: 40px;
