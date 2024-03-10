@@ -303,6 +303,7 @@ label {
 
 @media (min-width: 320px) {
   .about-me-image-div {
+    padding-top: 11px;
     padding-left: 5px;
     padding-right: 15px;
   }
@@ -326,6 +327,10 @@ label {
 }
 
 @media (min-width: 768px) {
+  .about-me-image-div {
+    padding-top: 53px;
+  }
+
   .about-me-heading {
     padding-top: 20px;
   }
@@ -375,6 +380,7 @@ label {
   padding-top: 72px;
   padding-bottom: 21px;
 }
+
 .availability-div {
   padding-bottom: 53px;
 }
