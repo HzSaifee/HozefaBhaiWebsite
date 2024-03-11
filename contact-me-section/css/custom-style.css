@@ -214,7 +214,7 @@ label {
 }
 
 .cover-motto-p {
-  color: rgba(236, 239, 198, 0.75) !important;
+  color: rgba(236, 239, 198, 0.85) !important;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -273,7 +273,7 @@ label {
 -----------------------*/
 .about-me-section {
   border-top: 5px solid rgba(125, 126, 128, 1);
-  border-bottom: 5px solid rgba(125, 126, 128, 1);
+  /* border-bottom: 3px solid rgb(229, 230, 233); */
   background: rgba(217, 246, 255, 1);
   background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
   padding-top: 72px;
@@ -368,15 +368,72 @@ label {
     text-align: left;
   }
 }
+/*---------------------
+	Services Offered section
+-----------------------*/
+.services-offered-section{
+  /* background: rgb(30,97,121);
+  background: linear-gradient(171deg, rgba(30,97,121,0.7988445378151261) 48%, rgba(82,155,193,0.4599089635854342) 100%); */
+  background: rgba(217, 246, 255, 1);
+  background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
+}
+.services-offered-heading{
+  padding-top: 30px;
+  color: rgba(8, 15, 47, 1);
 
+  /* color: rgb(255, 255, 255); */
+}
+.card{
+  width: 18rem;
+  margin-top: 20px;
+  background-color: rgb(226, 242, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid rgba(2, 52, 70, 0.797);
+  border-radius: 15px
+}
+.card-body{
+  border-top: 0.15px solid rgb(186, 191, 193);
+}
+.services-offered-div{
+  padding-bottom: 50px;
+}
+.card-img-top{
+  height: 200px;
+}
+.card-title{
+  color: rgba(8, 15, 47, 1);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1160px){
+  .card{
+    width: 15rem;
+  }
+}
+
+/* @media screen and (max-width: 791px) and (min-width: 790px) {
+  .card{
+    width: 20rem;
+  }
+} */
+@media screen and (min-width: 424px) and (max-width: 768px) {
+  .card{
+    width: 20rem;
+  }
+}
+@media (max-width: 452px) {
+  .card{
+    width: 18rem;
+    height: 22rem;
+  }
+}
 /*---------------------
 	Avaibility section
 -----------------------*/
 .availability-section {
   background: rgba(217, 246, 255, 1);
   background: radial-gradient(circle, rgba(210, 253, 255, .5) 1%, rgba(251, 252, 253, 1) 100%);
-  border-top: 5px solid rgba(125, 126, 128, 1);
-  border-bottom: 5px solid rgba(125, 126, 128, 1);
+  /* border-top: 3px solid rgb(229, 230, 233); */
+  border-bottom: 3px solid rgba(125, 126, 128, 1);
   padding-top: 72px;
   padding-bottom: 21px;
 }
