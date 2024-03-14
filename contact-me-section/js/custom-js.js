@@ -114,7 +114,8 @@ function carouselLogic() {
           .stop()
           .animate({ scrollLeft: scrollPosition }, 553, "linear");
       } else {
-        scrollPosition = cardWidth * (5 - cardCountPlusOne);
+        scrollPosition =
+          cardWidth * (totalNumberOfCards + 1 - cardCountPlusOne);
         $(".carousel-inner")
           .stop()
           .animate({ scrollLeft: scrollPosition }, 553, "linear");
